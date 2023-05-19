@@ -1,0 +1,23 @@
+.container{
+    background-color: #FFFF;
+    position: absolute;
+    top: 1.5em;
+    left: 8.5em;
+    right: 8.5em;
+    bottom: 1.5em;
+    display: grid;
+    grid-template-columns: 30% 70%;
+
+}
+
+.inbox {
+    border-right: 1px solid rgb(155, 155, 155);
+}
+
+.chatbox{
+    overflow: hidden;
+    position: relative;
+    
+}
+
+

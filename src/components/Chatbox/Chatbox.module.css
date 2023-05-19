@@ -1,0 +1,186 @@
+.userBox{
+    width: 100%;
+    height: 60px;
+    background-color: #f1f2f4;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    position: relative;
+}
+
+.userImgCont{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+
+}
+
+.userImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.user p{
+    padding-left: 15px;
+    font-size: 14px;
+}
+
+.mainBG{
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.converCont{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.conver{
+    position: relative;
+    display: table;
+    background-color: #fff;
+    margin: 15px 30px;
+    padding: 5px 60px 15px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.conver::before{
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: -10px;
+    bottom: 4px;
+    z-index: 1;
+    background: #fff;
+    border-radius: 20px;
+}
+
+.conver::after{
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: -15px;
+    bottom: 9px;
+    z-index: 1;
+    background: #e4dbd4;
+    border-radius: 20px;
+}
+
+.converReverse{
+    position: relative;
+    display: table;
+    background-color: #fff;
+    margin: 15px 30px;
+    padding: 5px 60px 15px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.converReverse::before{
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: auto;
+    right: -10px;
+    bottom: 4px;
+    z-index: 1;
+    background: #fff;
+    border-radius: 20px;
+}
+
+.converReverse::after{
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: auto;
+    right: -15px;
+    bottom: 9px;
+    z-index: 1;
+    background: #e4dbd4;
+    border-radius: 20px;
+}
+
+.time{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    color: #777;
+    font-size: 11px;
+}
+
+
+.navList{
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #888;
+}
+
+.navItem{
+    margin-left: 2px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.sendCont{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+}
+
+.sendBox{
+    width: 100%;
+    height: 60px;
+    background-color: #f1f2f4;
+    bottom: 0;
+    position: absolute;
+}
+
+
+.sendList{
+    display: grid;
+    grid-template-columns: 5% 5% 85% 5%;
+    height: 60px;
+    color: #777;
+    align-items: center;
+}
+
+.sendItem{
+    width: fit-content;
+    margin-left: 1.5em;
+}
+
+.sendItem button{
+    border: none;
+    color: #777;
+}
+
+.sendItem:last-child{
+    margin-left: 15px;
+}
+
+.sendList input{
+    height: 40px;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    padding-left: 10px;
+
+}
+
+.sendList input::placeholder{
+    /* padding-left: 10px; */
+    font-size: 14px;
+    outline: none;
+    
+}
